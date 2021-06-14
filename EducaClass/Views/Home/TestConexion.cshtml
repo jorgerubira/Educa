@@ -1,0 +1,13 @@
+﻿@model List<MyModelGeneral>
+
+@{
+    ViewData["Title"] = "TestConexion";
+}
+
+<h1>Test Conexion</h1>
+
+@foreach(MyModelGeneral item in Model)
+{
+    @item.Database <br/>
+}
+
